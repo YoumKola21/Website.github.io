@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background: linear-gradient(to left,red,orange,yellow);
+}
+h1{
+    transition: 0.2s all ease;
+}
+h1:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+    transition: 0.2s all ease;
+}
